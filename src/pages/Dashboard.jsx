@@ -2,10 +2,10 @@ import React from "react";
 import Hero from "../components/Hero";
 import NavBar from "../components/Navbar";
 import YogaMerits from "../components/YogaMerits";
-import Carousel from "../components/Carousel";
 import ReviewCarousel from "../components/ReviewCarousel";
 import PricingSection from "../components/PricingSection";
 import Footer from "../components/Footer";
+import InstructorCarousel from "../components/InstructorCarousel";
 
 const Dashboard = () => {
   return (
@@ -13,7 +13,7 @@ const Dashboard = () => {
       <NavBar />
       <Hero />
       <YogaMerits />
-      <Carousel />
+      <InstructorCarousel />
       <section className="container mx-auto px-4 py-12 md:py-24">
         <div className="grid gap-12 md:grid-cols-2 items-center">
           {/* Image Column */}

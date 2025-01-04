@@ -36,7 +36,7 @@ const testimonials = [
   },
 ];
 
-export default function InstructorCarousel() {
+export default function ReviewCarousel() {
   const [isAtStart, setIsAtStart] = useState(true);
   const [isAtEnd, setIsAtEnd] = useState(false);
   const scrollContainerRef = useRef(null);
